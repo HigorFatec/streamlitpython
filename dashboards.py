@@ -24,7 +24,9 @@ text-align: center;
 }
 [data-testid="stHeader"]{
 background-image: linear-gradient(#45A3D2,#45A3D2);
-
+}
+[data-testid="stMarkdownContainer"]{
+color: #FFFFFF;
 }
 </style>
 """
@@ -101,7 +103,6 @@ date_list_resultado = ['TOTAL'] + list(df_resultado['DATA'].unique())
 date_list_devolutivo = ['TOTAL'] + list(df_devolutivo['data'].unique())
 filial_list = ['LOCALIDADE'] + list(df['filial'].unique())
 
-
 # 3 - Filtro de Busca DT e DATA
 selected_date = st.sidebar.selectbox('Filtro Data', date_list)
 if selected_date != 'TOTAL':
@@ -115,7 +116,7 @@ else:
 
 # 3.1 Filtrar opções de DT com base na seleção de Data
 dt_list = ['TOTAL'] + list(df_filtered_date['dt'].unique())
-selected_dt = st.sidebar.selectbox('Filtro DT', dt_list)
+selected_dt = st.sidebar.selectbox('Filtro DT Conferidos', dt_list)
 if selected_dt != 'TOTAL':
     df_filtered_dt = df_filtered_date[df_filtered_date['dt'] == selected_dt].reset_index(drop=True)
     df_filtered_dt_resultado = df_filtered_date_resultado[df_filtered_date_resultado['TRANSPORTE'] == selected_dt].reset_index(drop=True)
@@ -127,12 +128,13 @@ else:
 
 # 3.2 Filtrar por produto
 produto_list = ['TOTAL'] + list(df_filtered_dt['nome'].unique())
-selected_nome = st.sidebar.selectbox('Filtro Produto',produto_list)
+selected_nome = st.sidebar.selectbox('Filtro Retorno por Produto',produto_list)
 if selected_nome != 'TOTAL':
     df_filtered_nome = df_filtered_dt[df_filtered_dt['nome'] == selected_nome].reset_index(drop=True)
 
 else:
     df_filtered_nome = df_filtered_dt
+
 
 # 4 - Atribuindo valores aos DataFrame
 #json
@@ -147,17 +149,28 @@ dt_df_filtered_devolutivo = df_filtered_dt_devolutivo
 #df_filtered_dt_devolutivo
 
 # 4.2 GERANDO ADERENCIA AO APLICATIVO
-
-
 total_linhas_dt = dt_df_filtered['dt'][dt_df_filtered['dt'].isin(dt_df_filtered_resultado['TRANSPORTE'])].nunique()
 total_linhas_transporte = len(dt_df_filtered_resultado['TRANSPORTE'].unique())
 
 porcentagem_dt_em_transporte = (total_linhas_dt / total_linhas_transporte) * 100
 porcentagem_dt_em_transporte = "{:.2f}".format(porcentagem_dt_em_transporte)
 
-# Criar um DataFrame para Plotly Express
-df_pie = pd.DataFrame({'values': [total_linhas_transporte,total_linhas_dt],
-                       'names': ['TOTAL', 'CONFERIDO']})
+
+#4.3 - Criando Filtro por DT Divergente
+divergencia_list = dt_df_filtered_resultado['TRANSPORTE'][~dt_df_filtered_resultado['TRANSPORTE'].isin(dt_df_filtered['dt'])].unique()
+divergencia_list = [' '] + list(divergencia_list)
+selected_divergencia = st.sidebar.selectbox('Filtro DTs não conferidas', divergencia_list)
+
+if selected_divergencia != ' ':
+    dt_df_filtered_resultado = dt_df_filtered_resultado[dt_df_filtered_resultado['TRANSPORTE'] == selected_divergencia].reset_index(drop=True)
+    
+    #OCULTANDO OS OUTROS GRAFICOS PARA MELHOR VISUALIZAÇÃO
+    dt_df_filtered = dt_df_filtered[dt_df_filtered['dt'] == selected_divergencia].reset_index(drop=True)
+
+    df_filtered_dt_devolutivo = df_filtered_dt_devolutivo[df_filtered_dt_devolutivo['dt'] == selected_divergencia].reset_index(drop=True)
+
+    dt_df_filtered_devolutivo = dt_df_filtered_devolutivo[dt_df_filtered_devolutivo['dt'] == selected_divergencia].reset_index(drop=True)
+
 
 # 4.5 - Obtendo a soma
 
@@ -186,6 +199,10 @@ unique_values_df = unique_values_df.sort_values(by='nome').reset_index(drop=True
 
 
 #4.7 - Criando DataFrames para graficos
+
+# Criar um DataFrame para Plotly Express
+df_pie = pd.DataFrame({'values': [total_linhas_transporte,total_linhas_dt],
+                       'names': ['TOTAL', 'CONFERIDO']})
 
 # Criar um DataFrame com as somas totais
 df_somas = pd.DataFrame({
