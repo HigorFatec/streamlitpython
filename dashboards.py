@@ -28,7 +28,10 @@ background-image: linear-gradient(#45A3D2,#45A3D2);
 [data-testid="stMarkdownContainer"]{
 color: #FFFFFF;
 }
-</style>
+[class="main-svg"]{
+style="background: rgb(255, 255, 255, 0);";
+}
+]</style>
 """
 
 st.markdown(page_bg_img,unsafe_allow_html=True)
@@ -69,6 +72,9 @@ df_resultado = df_resultado.sort_values('DATA')
 df_devolutivo['data'] = pd.to_datetime(df_devolutivo['data'],dayfirst=True)
 df_devolutivo = df_devolutivo.sort_values('data')
 df_devolutivo = df_devolutivo.drop_duplicates()
+# Remover caracteres não numéricos da coluna 'quantidade'
+df_devolutivo['quantidade'] = df_devolutivo['quantidade'].str.replace(r'\D', '', regex=True)
+
 df_devolutivo['quantidade'] = df_devolutivo['quantidade'].astype(int)
 
 #2.2 - MODIFICANDO PARA STRING (RESULTADO)
@@ -77,6 +83,7 @@ df_resultado['TRANSPORTE'] = df_resultado['TRANSPORTE'].astype(str)
 #2.3 - FILTRANDO RESULTADOS
 lista_de_valores = ['Cerv Heineken Pil 0,60Gfa Rt 24Un',
 'CERV AMSTEL LAGER 0,60L GFA RT 24UN',
+'Cerv Amstel Lager 0,60l Gfa Rt 24un',
 'Draft Beer Heineken Pilsen 30L Pbr2',
 'Refr Schl Itub 0,60Lgfa Rt 24Un',
 'Cerv Glacial Pil 0,60Lgfa Rt 24Un',
@@ -85,10 +92,57 @@ lista_de_valores = ['Cerv Heineken Pil 0,60Gfa Rt 24Un',
 'Draft Beer Heineken Pilsen 50L Pbr2',
 'Cerv Amstel Lager 1Lgfa Rt 12Un',
 'CERV SCHIN PIL 0,60LGFA RT 24UN',
-'Draft Beer Amstel Lager 50L Pbr2'
+'Draft Beer Amstel Lager 50L Pbr2',
+'Draft Beer Lagunitas Ipa 30L Pbr2',
+'Draft Beer Baden Ipa 30L Pbr2',
 ]
 df_resultado = df_resultado[df_resultado['DESCR. DO MATERIAL'].isin(lista_de_valores)]
 
+#2.4 MAPEAMENTO DE VALORES
+# Mapeamento de valores antigos para novos
+mapeamento_resultado = {
+    'Cerv Heineken Pil 0,60Gfa Rt 24Un': 'CAIXA PLAST HEINEKEN 0,60L 24UN (IM)',
+    'CERV AMSTEL LAGER 0,60L GFA RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+    'Cerv Amstel Lager 0,60l Gfa Rt 24un': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+    'Draft Beer Heineken Pilsen 30L Pbr2': 'BARRIL 30L',
+    'Refr Schl Itub 0,60Lgfa Rt 24Un': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+    'Cerv Glacial Pil 0,60Lgfa Rt 24Un': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+    'Cerv Glacial Pil 1Lgfa Rt 12Un': 'CAIXA PLASTICA 1L (IM)',
+    'Cerv Schin Pil 1Lgfa Rt 12Un': 'CAIXA PLASTICA 1L (IM)',
+    'Draft Beer Heineken Pilsen 50L Pbr2': 'BARRIL 50L',
+    'Cerv Amstel Lager 1Lgfa Rt 12Un': 'CAIXA PLASTICA 1L (IM)',
+    'CERV SCHIN PIL 0,60LGFA RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+    'Draft Beer Amstel Lager 50L Pbr2': 'BARRIL 50L',
+    'Draft Beer Lagunitas Ipa 30L Pbr2': 'BARRIL 30L',
+    'Draft Beer Baden Ipa 30L Pbr2': 'BARRIL 30L',
+    'Draft Beer Baden Witbier 30L Pbr2': 'BARRIL 30L',
+}
+
+# Renomear os valores na coluna 'DESCR. DO MATERIAL'
+df_resultado['DESCR. DO MATERIAL'] = df_resultado['DESCR. DO MATERIAL'].replace(mapeamento_resultado)
+
+mapeamento_devolutivo = {
+'CERV AMSTEL LAGER 0,60L RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+'CERV HEINEKEN PIL 0,60GRF RT 24UN.': 'CAIXA PLAST HEINEKEN 0,60L 24UN (IM)',
+'CERV GLACIAL PIL 0,60LGFA RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+'CERV AMSTEL LAGER 1LGFA RT 12UN': 'CAIXA PLASTICA 1L (IM)',
+'CERV GLACIAL PIL 1LGFA RT 12UN': 'CAIXA PLASTICA 1L (IM)',
+'DRAFT BEER AMSTEL LAGER 50L.':'BARRIL 50L',
+'CERV DEVASSA LAGER 0,60LGFA RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+'CERV DEVASSA LAGER 1LGFA RT 12UN': 'CAIXA PLASTICA 1L (IM)',
+'DRAFT BEER  BADEN IPA 30L': 'BARRIL 30L',
+'DRAFT BEER BADEN WITBIER 30L PBR2': 'BARRIL 30L',
+'DRAFT BEER LAGUNITAS IPA 30L': 'BARRIL 30L',
+'DRAFT BEER HEINEKEN PIL30L': 'BARRIL 30L',
+'CERV SCHIN PIL 0,60LGFA RT 24UNu': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+'DRAFT BEER HEINEKEN PIL 50L':'BARRIL 50L',
+'CERV SCHIN PIL 1LGFA RT 12UN': 'CAIXA PLASTICA 1L (IM)',
+'REFR SCHL ITUB 0,60LGFA RT 24UN': 'CAIXA PLAST AMARELA 0,60L 24UN (IM)',
+
+}
+
+# Renomear os valores na coluna 'DESCR. DO MATERIAL'
+df_devolutivo['nome'] = df_devolutivo['nome'].replace(mapeamento_devolutivo)
 
 
 # 2.5 = REORDENANDO
@@ -210,12 +264,36 @@ df_somas = pd.DataFrame({
     'Soma': [soma_total, soma_total_resultado, soma_total_devolutivo]
 })
 
+#SOMAR GRAFICOS
+
+# Mesclar os DataFrames usando colunas diferentes
+dt_df_filtered = dt_df_filtered.drop_duplicates()
+dt_df_filtered_resultado = dt_df_filtered_resultado.drop_duplicates()
+
+# Calcula a diferença entre somar_quantidades e TOTAL.CAIXAS
+df_grouped = dt_df_filtered.groupby(['dt', 'nome','observacoes'], as_index=False)['quantidade'].sum()
+
+print(df_grouped.columns)
+
+df_grouped_resultado = dt_df_filtered_resultado.groupby(['TRANSPORTE', 'DESCR. DO MATERIAL'], as_index=False)['TOTAL.CAIXAS'].sum()
+
+merged_df = pd.merge(df_grouped, df_grouped_resultado, left_on=['dt', 'nome'], right_on=['TRANSPORTE', 'DESCR. DO MATERIAL'])
+
+merged_df = merged_df.groupby(['dt', 'nome'], as_index=False).agg({'quantidade':'sum', 'TOTAL.CAIXAS':'sum'})
+
+merged_df['DIFERENCA'] = merged_df['TOTAL.CAIXAS'] - merged_df['quantidade']
+
+
+print(merged_df[['nome','TOTAL.CAIXAS','quantidade','DIFERENCA']])
+# Cria um gráfico de barras para a diferença
+
+
 # 5 - Gerando graficos
 
 col1, col2 = st.columns(2)
 
 col3, col4 = st.columns(2)
-col6, col7 = st.columns(2)
+col5 ,col6, col7 = st.columns(3)
 
 fig_date = px.histogram(dt_df_filtered, y='nome', labels='SOMA',x='quantidade',title='Quantidade Retorno de Ativos')
 
@@ -230,11 +308,13 @@ fig_date_diferenca = px.pie(df_somas, values = 'Soma', names='Categoria',title='
 
 # Criar uma tabela interativa usando plotly
 fig_table = go.Figure(data=[go.Table(
-    header=dict(values=['Ativo', 'Observações/Comodato'],fill_color='#12239E',font=dict(color='white',size=24)
+    header=dict(values=['Ativo', 'Observações'],fill_color='#12239E',font=dict(color='white',size=24)
                 ),
     cells=dict(values=[unique_values_df['nome'], unique_values_df['observacoes']],               line_color='darkslategray',fill_color='white', align='left',
 )
 )])
+
+
 
 #5.5 - Rotulo de dados
 #RETORNO ATIVOS
@@ -326,9 +406,11 @@ col6.plotly_chart(fig_date_devolutivo,use_container_width=True)
 
 #col4.dataframe(dt_df_filtered['dt'].unique())
 
-col2.plotly_chart(fig_date_aderencia,use_container_width=True)
+col5.plotly_chart(fig_date_aderencia,use_container_width=True)
 
 col4.plotly_chart(fig_date_diferenca,use_container_width=True)
 
 #col7.dataframe(unique_values_df,use_container_width=True)
 col7.plotly_chart(fig_table,use_container_width=True)
+
+col2.dataframe(merged_df[['dt','nome','TOTAL.CAIXAS','quantidade','DIFERENCA']],use_container_width=True)
