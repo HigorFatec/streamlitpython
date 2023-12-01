@@ -190,6 +190,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985330",
+        "observacoes": "",
+        "hora": "17:13:29",
+        "placa": "CGS2C77",
+        "quantidade": 3,
+        "data": "01/12/2023",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9985178",
         "observacoes": "",
         "hora": "16:49:03",
@@ -350,6 +360,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985330",
+        "observacoes": "",
+        "hora": "17:13:29",
+        "placa": "CGS2C77",
+        "quantidade": 1,
+        "data": "01/12/2023",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9985581",
         "observacoes": "",
         "hora": "15:33:09",
@@ -445,6 +465,16 @@
         "hora": "02:05:39",
         "placa": "teste",
         "quantidade": 5,
+        "data": "01/12/2023",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985330",
+        "observacoes": "",
+        "hora": "17:13:29",
+        "placa": "CGS2C77",
+        "quantidade": 22,
         "data": "01/12/2023",
         "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
         "filial": "RPU"
