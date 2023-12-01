@@ -269,13 +269,22 @@ df_somas = pd.DataFrame({
 # Mesclar os DataFrames usando colunas diferentes
 dt_df_filtered = dt_df_filtered.drop_duplicates()
 dt_df_filtered_resultado = dt_df_filtered_resultado.drop_duplicates()
+dt_df_filtered_devolutivo = dt_df_filtered_devolutivo.drop_duplicates()
 
-# Calcula a diferença entre somar_quantidades e TOTAL.CAIXAS
-df_grouped = dt_df_filtered.groupby(['dt', 'nome','observacoes'], as_index=False)['quantidade'].sum()
-
-print(df_grouped.columns)
-
+#FAZENDO O AGRUPAMENTO PELA QUANTIDADE
+df_grouped = dt_df_filtered.groupby(['dt', 'nome'], as_index=False)['quantidade'].sum()
 df_grouped_resultado = dt_df_filtered_resultado.groupby(['TRANSPORTE', 'DESCR. DO MATERIAL'], as_index=False)['TOTAL.CAIXAS'].sum()
+df_grouped_devolutivo = dt_df_filtered_devolutivo.groupby(['dt','nome'], as_index=False)['quantidade'].sum()
+
+#SOMANDO DEVOLUÇÃO COM RETORNO
+# Agrupa os DataFrames
+df_grouped = pd.merge(df_grouped, df_grouped_devolutivo, on=['dt', 'nome'], suffixes=('_original', '_devolutivo'), how='outer')
+# Preenche valores nulos com 0
+df_grouped = df_grouped.fillna(0)
+# Soma as quantidades
+df_grouped['quantidade'] = df_grouped['quantidade_original'] + df_grouped['quantidade_devolutivo']
+
+print(df_grouped)
 
 merged_df = pd.merge(df_grouped, df_grouped_resultado, left_on=['dt', 'nome'], right_on=['TRANSPORTE', 'DESCR. DO MATERIAL'])
 
@@ -283,8 +292,12 @@ merged_df = merged_df.groupby(['dt', 'nome'], as_index=False).agg({'quantidade':
 
 merged_df['DIFERENCA'] = merged_df['TOTAL.CAIXAS'] - merged_df['quantidade']
 
+merged_df = merged_df.sort_values(by='DIFERENCA', ascending=False)
 
-print(merged_df[['nome','TOTAL.CAIXAS','quantidade','DIFERENCA']])
+merged_df = merged_df[merged_df['DIFERENCA'] >= 1]
+
+
+#print(merged_df[['nome','TOTAL.CAIXAS','quantidade','DIFERENCA']])
 # Cria um gráfico de barras para a diferença
 
 
@@ -314,6 +327,10 @@ fig_table = go.Figure(data=[go.Table(
 )
 )])
 
+fig_diferenca_ativo = px.bar(merged_df, x='nome', y='DIFERENCA', color='dt',
+             barmode='group',
+             labels={'DIFERENCA': 'Diferença', 'dt': 'Documento'},
+             title='Diferença entre TOTAL.CAIXAS e Quantidade por Produto')
 
 
 #5.5 - Rotulo de dados
@@ -339,6 +356,9 @@ fig_date_aderencia.update_traces(marker_line_width=1, opacity=1)
 #DIFERENCA DE ATIVOS
 fig_date_diferenca.update_traces(textfont=dict(color='white'))
 fig_date_diferenca.update_traces(marker_line_width=1, opacity=1)
+
+#SAIDA X RETORNO
+fig_diferenca_ativo.update_traces(textposition='outside', texttemplate='%{x} ', customdata=dt_df_filtered['SOMA'],textfont=dict(color='white'))
 
 #5.6 Cores nos gráficos
 fig_date.update_layout(showlegend=True,plot_bgcolor='rgba(255, 255, 255, 0)')
@@ -394,13 +414,23 @@ fig_date_diferenca.update_layout(xaxis=dict(title='',tickfont=dict(color='white'
 
 fig_table.update_layout(margin=dict(t=0, b=0))
 
+# SAIDA X RETORNO
+fig_diferenca_ativo.update_layout(showlegend=True,plot_bgcolor='rgba(255, 255, 255, 0)')
+fig_diferenca_ativo.update_layout(paper_bgcolor='rgba(255, 255, 255, 0.2)')
+fig_diferenca_ativo.update_layout(yaxis=dict(title='',tickfont=dict(color='white')))
+fig_diferenca_ativo.update_layout(
+    title='Diferença Saida x Retorno de Produtos',
+    title_font=dict(size=24, color='white'),  # Define o tamanho e a cor do título
+)
+fig_diferenca_ativo.update_layout(xaxis=dict(title='',tickfont=dict(color='white')))
+#fig_diferenca_ativo.update_layout(bargap=0)
 
 # 6 - Atribuindo nas Colunas (dashBoard)
 col1.plotly_chart(fig_date_resultado,use_container_width=True)
 
 col3.plotly_chart(fig_date,use_container_width=True)
 
-col6.plotly_chart(fig_date_devolutivo,use_container_width=True)
+col4.plotly_chart(fig_date_devolutivo,use_container_width=True)
 
 #col2.dataframe(dt_df_filtered_resultado['TRANSPORTE'].unique())
 
@@ -408,9 +438,9 @@ col6.plotly_chart(fig_date_devolutivo,use_container_width=True)
 
 col5.plotly_chart(fig_date_aderencia,use_container_width=True)
 
-col4.plotly_chart(fig_date_diferenca,use_container_width=True)
+col6.plotly_chart(fig_date_diferenca,use_container_width=True)
 
 #col7.dataframe(unique_values_df,use_container_width=True)
 col7.plotly_chart(fig_table,use_container_width=True)
 
-col2.dataframe(merged_df[['dt','nome','TOTAL.CAIXAS','quantidade','DIFERENCA']],use_container_width=True)
+col2.plotly_chart(fig_diferenca_ativo,use_container_width=True)
