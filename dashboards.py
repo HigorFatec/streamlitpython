@@ -31,7 +31,7 @@ color: #FFFFFF;
 [class="main-svg"]{
 style="background: rgb(255, 255, 255, 0);";
 }
-]</style>
+</style>
 """
 
 st.markdown(page_bg_img,unsafe_allow_html=True)
@@ -250,8 +250,6 @@ unique_values_df = unique_values_df.dropna(subset=['observacoes'])
 # Ordenar por 'observacoes' e redefinir o índice
 unique_values_df = unique_values_df.sort_values(by='nome').reset_index(drop=True)
 
-
-
 #4.7 - Criando DataFrames para graficos
 
 # Criar um DataFrame para Plotly Express
@@ -327,7 +325,7 @@ fig_table = go.Figure(data=[go.Table(
 )
 )])
 
-fig_diferenca_ativo = px.bar(merged_df, x='nome', y='DIFERENCA', color='dt',
+fig_diferenca_ativo = px.histogram(merged_df, x='nome', y='DIFERENCA', color='dt',
              barmode='group',
              labels={'DIFERENCA': 'Diferença', 'dt': 'Documento'},
              title='Diferença entre TOTAL.CAIXAS e Quantidade por Produto')
@@ -358,7 +356,7 @@ fig_date_diferenca.update_traces(textfont=dict(color='white'))
 fig_date_diferenca.update_traces(marker_line_width=1, opacity=1)
 
 #SAIDA X RETORNO
-fig_diferenca_ativo.update_traces(textposition='outside', texttemplate='%{x} ', customdata=dt_df_filtered['SOMA'],textfont=dict(color='white'))
+fig_diferenca_ativo.update_traces(textposition='outside', texttemplate='%{y} ', customdata=merged_df['DIFERENCA'],textfont=dict(color='white'))
 
 #5.6 Cores nos gráficos
 fig_date.update_layout(showlegend=True,plot_bgcolor='rgba(255, 255, 255, 0)')
