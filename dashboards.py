@@ -95,6 +95,9 @@ lista_de_valores = ['Cerv Heineken Pil 0,60Gfa Rt 24Un',
 'Draft Beer Amstel Lager 50L Pbr2',
 'Draft Beer Lagunitas Ipa 30L Pbr2',
 'Draft Beer Baden Ipa 30L Pbr2',
+'Draft Beer Baden Pilsen Cristal 30L Pbr2',
+'Draft Beer Blue Moon 30L Pbr2',
+
 ]
 df_resultado = df_resultado[df_resultado['DESCR. DO MATERIAL'].isin(lista_de_valores)]
 
@@ -116,6 +119,8 @@ mapeamento_resultado = {
     'Draft Beer Lagunitas Ipa 30L Pbr2': 'BARRIL 30L',
     'Draft Beer Baden Ipa 30L Pbr2': 'BARRIL 30L',
     'Draft Beer Baden Witbier 30L Pbr2': 'BARRIL 30L',
+    'Draft Beer Baden Pilsen Cristal 30L Pbr2': 'BARRIL 30L',
+    'Draft Beer Blue Moon 30L Pbr2': 'BARRIL 30L',
 }
 
 # Renomear os valores na coluna 'DESCR. DO MATERIAL'
