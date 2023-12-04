@@ -450,6 +450,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9988494",
+        "observacoes": "",
+        "hora": "18:12:28",
+        "placa": "DWN5D42",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988491",
         "observacoes": "",
         "hora": "17:10:36",
@@ -467,6 +477,16 @@
         "quantidade": 12,
         "data": "04/12/2023",
         "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988588",
+        "observacoes": "",
+        "hora": "18:14:59",
+        "placa": "FRF6J63",
+        "quantidade": 1,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLASTICA 1L (IM)",
         "filial": "RPU"
     },
     {
@@ -520,6 +540,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9988588",
+        "observacoes": "",
+        "hora": "18:14:59",
+        "placa": "FRF6J63",
+        "quantidade": 24,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9985947",
         "observacoes": "",
         "hora": "17:23:15",
@@ -537,6 +567,16 @@
         "quantidade": 4,
         "data": "04/12/2023",
         "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988494",
+        "observacoes": "",
+        "hora": "18:12:28",
+        "placa": "DWN5D42",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
         "filial": "RPU"
     },
     {
@@ -575,6 +615,16 @@
         "hora": "17:10:36",
         "placa": "CYT-7681",
         "quantidade": 14,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988494",
+        "observacoes": "",
+        "hora": "18:12:28",
+        "placa": "DWN5D42",
+        "quantidade": 23,
         "data": "04/12/2023",
         "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
         "filial": "RPU"
@@ -620,6 +670,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9988494",
+        "observacoes": "",
+        "hora": "18:12:28",
+        "placa": "DWN5D42",
+        "quantidade": 6,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988497",
         "observacoes": "",
         "hora": "16:54:51",
@@ -657,6 +717,26 @@
         "quantidade": 4,
         "data": "04/12/2023",
         "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988494",
+        "observacoes": "",
+        "hora": "18:12:28",
+        "placa": "DWN5D42",
+        "quantidade": 10,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988588",
+        "observacoes": "",
+        "hora": "18:14:59",
+        "placa": "FRF6J63",
+        "quantidade": 9,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
         "filial": "RPU"
     },
     {
