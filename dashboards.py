@@ -47,7 +47,7 @@ senha = st.sidebar.text_input("Digite a senha:", type="password")
 # Verificando a senha
 if senha == senha_correta:
 
-    mensagem_placeholder.success("Senha correta! Acesso permitido.")
+    #mensagem_placeholder.success("Senha correta! Acesso permitido.")
     
     # Se a senha estiver correta, você pode prosseguir com o código do seu dashboard abaixo.
 
@@ -97,6 +97,7 @@ if senha == senha_correta:
 
     #2.2 - MODIFICANDO PARA STRING (RESULTADO)
     df_resultado['TRANSPORTE'] = df_resultado['TRANSPORTE'].astype(str)
+
 
     #2.3 - FILTRANDO RESULTADOS
     lista_de_valores = ['Cerv Heineken Pil 0,60Gfa Rt 24Un',
@@ -172,7 +173,6 @@ if senha == senha_correta:
     df['data'] = df['data'].apply(lambda x: f"{x.day}-{x.month}-{x.year}")
     df_resultado['DATA'] = df_resultado['DATA'].apply(lambda x: f"{x.day}-{x.month}-{x.year}")
     df_devolutivo['data'] = df_devolutivo['data'].apply(lambda x: f"{x.day}-{x.month}-{x.year}")
-
 
     # 2.6 Mostrar tudo
     date_list = ['TOTAL'] + list(df['data'].unique())
@@ -305,7 +305,6 @@ if senha == senha_correta:
     # Soma as quantidades
     df_grouped['quantidade'] = df_grouped['quantidade_original'] + df_grouped['quantidade_devolutivo']
 
-    print(df_grouped)
 
     merged_df = pd.merge(df_grouped, df_grouped_resultado, left_on=['dt', 'nome'], right_on=['TRANSPORTE', 'DESCR. DO MATERIAL'])
 
