@@ -235,7 +235,7 @@ if senha == senha_correta:
         porcentagem_dt_em_transporte = (total_linhas_dt / total_linhas_transporte) * 100
         porcentagem_dt_em_transporte = "{:.2f}".format(porcentagem_dt_em_transporte)
     else:
-        st.error("Não houve saida de produto do Filtro selecionado!")
+        st.error("Não houve saida de produto do Filtro selecionado!!")
 
     #4.3 - Criando Filtro por DT Divergente
     divergencia_list = dt_df_filtered_resultado['TRANSPORTE'][~dt_df_filtered_resultado['TRANSPORTE'].isin(dt_df_filtered['dt'])].unique()
