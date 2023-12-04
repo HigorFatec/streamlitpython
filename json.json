@@ -390,6 +390,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:36",
+        "placa": "CYT-7681",
+        "quantidade": 6,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988492",
         "observacoes": "",
         "hora": "16:55:34",
@@ -440,6 +450,26 @@
         "filial": "RPU"
     },
     {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:35",
+        "placa": "CYT-7681",
+        "quantidade": 12,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:36",
+        "placa": "CYT-7681",
+        "quantidade": 14,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988594",
         "observacoes": "",
         "hora": "17:04:48",
@@ -475,6 +505,36 @@
         "hora": "16:54:51",
         "placa": "FJM0D22",
         "quantidade": 17,
+        "data": "04/12/2023",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:36",
+        "placa": "CYT-7681",
+        "quantidade": 6,
+        "data": "04/12/2023",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:35",
+        "placa": "CYT-7681",
+        "quantidade": 2,
+        "data": "04/12/2023",
+        "nome": "CARRINHO DE M\u00c3O",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988491",
+        "observacoes": "",
+        "hora": "17:10:36",
+        "placa": "CYT-7681",
+        "quantidade": 1,
         "data": "04/12/2023",
         "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
         "filial": "RPU"
