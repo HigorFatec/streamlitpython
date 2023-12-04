@@ -208,16 +208,17 @@ if senha == senha_correta:
     selected_nome = st.sidebar.selectbox('Filtro Retorno por Produto',produto_list)
     if selected_nome != 'TOTAL':
         df_filtered_nome = df_filtered_dt[df_filtered_dt['nome'] == selected_nome].reset_index(drop=True)
-
+        df_filtered_nome_resultado = df_filtered_dt_resultado[df_filtered_dt_resultado['DESCR. DO MATERIAL'] == selected_nome].reset_index(drop=True)
     else:
         df_filtered_nome = df_filtered_dt
+        df_filtered_nome_resultado = df_filtered_dt_resultado
 
 
     # 4 - Atribuindo valores aos DataFrame
     #json
     dt_df_filtered = df_filtered_nome
     #resultado
-    dt_df_filtered_resultado = df_filtered_dt_resultado
+    dt_df_filtered_resultado = df_filtered_nome_resultado
     dt_df_filtered_devolutivo = df_filtered_dt_devolutivo
 
     # 4 - Exibindo o DataFrame
@@ -229,9 +230,11 @@ if senha == senha_correta:
     total_linhas_dt = dt_df_filtered['dt'][dt_df_filtered['dt'].isin(dt_df_filtered_resultado['TRANSPORTE'])].nunique()
     total_linhas_transporte = len(dt_df_filtered_resultado['TRANSPORTE'].unique())
 
-    porcentagem_dt_em_transporte = (total_linhas_dt / total_linhas_transporte) * 100
-    porcentagem_dt_em_transporte = "{:.2f}".format(porcentagem_dt_em_transporte)
-
+    if(total_linhas_transporte != 0):
+        porcentagem_dt_em_transporte = (total_linhas_dt / total_linhas_transporte) * 100
+        porcentagem_dt_em_transporte = "{:.2f}".format(porcentagem_dt_em_transporte)
+    else:
+        st.error("Não houve saida de produto do Filtro selecionado!")
 
     #4.3 - Criando Filtro por DT Divergente
     divergencia_list = dt_df_filtered_resultado['TRANSPORTE'][~dt_df_filtered_resultado['TRANSPORTE'].isin(dt_df_filtered['dt'])].unique()
