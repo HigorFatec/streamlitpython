@@ -390,6 +390,26 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 16,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 16,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988491",
         "observacoes": "",
         "hora": "17:10:36",
@@ -397,6 +417,16 @@
         "quantidade": 6,
         "data": "04/12/2023",
         "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 12,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
         "filial": "RPU"
     },
     {
@@ -450,6 +480,46 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "BAB-5150",
+        "quantidade": 8,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "BAB-5150",
+        "quantidade": 1,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "BAB-5150",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988491",
         "observacoes": "",
         "hora": "17:10:35",
@@ -500,6 +570,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988497",
         "observacoes": "",
         "hora": "16:54:51",
@@ -520,6 +600,26 @@
         "filial": "RPU"
     },
     {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:28",
+        "placa": "BAB-5150",
+        "quantidade": 12,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:13",
+        "placa": "BAB-5150",
+        "quantidade": 4,
+        "data": "04/12/2023",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
         "dt": "9988491",
         "observacoes": "",
         "hora": "17:10:35",
@@ -537,6 +637,16 @@
         "quantidade": 1,
         "data": "04/12/2023",
         "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9985947",
+        "observacoes": "",
+        "hora": "17:23:14",
+        "placa": "BAB-5150",
+        "quantidade": 8,
+        "data": "04/12/2023",
+        "nome": "BARRIL 30L",
         "filial": "RPU"
     },
     {
