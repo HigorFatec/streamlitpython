@@ -300,6 +300,16 @@
         "filial": "RPU"
     },
     {
+        "dt": "9981040",
+        "observacoes": "",
+        "hora": "17:02:53",
+        "placa": "BAT-3790",
+        "quantidade": 1,
+        "data": "04/12/2023",
+        "nome": "PALETE MAD PBR (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "9987066",
         "observacoes": "",
         "hora": "13:25:27",
@@ -387,6 +397,16 @@
         "quantidade": 34,
         "data": "04/12/2023",
         "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "9988593",
+        "observacoes": "",
+        "hora": "16:59:40",
+        "placa": "OSL2J67",
+        "quantidade": 3,
+        "data": "04/12/2023",
+        "nome": "PALETE MAD PBR (IM)",
         "filial": "RPU"
     },
     {
