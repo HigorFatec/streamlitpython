@@ -209,17 +209,18 @@ if senha == senha_correta:
     if selected_nome != 'TOTAL':
         df_filtered_nome = df_filtered_dt[df_filtered_dt['nome'] == selected_nome].reset_index(drop=True)
         df_filtered_nome_resultado = df_filtered_dt_resultado[df_filtered_dt_resultado['DESCR. DO MATERIAL'] == selected_nome].reset_index(drop=True)
+        df_filtered_nome_devolutivo = df_filtered_dt_devolutivo[df_filtered_dt_devolutivo['nome'] == selected_nome].reset_index(drop=True)
     else:
         df_filtered_nome = df_filtered_dt
         df_filtered_nome_resultado = df_filtered_dt_resultado
-
+        df_filtered_nome_devolutivo = df_filtered_dt_devolutivo
 
     # 4 - Atribuindo valores aos DataFrame
     #json
     dt_df_filtered = df_filtered_nome
     #resultado
     dt_df_filtered_resultado = df_filtered_nome_resultado
-    dt_df_filtered_devolutivo = df_filtered_dt_devolutivo
+    dt_df_filtered_devolutivo = df_filtered_nome_devolutivo
 
     # 4 - Exibindo o DataFrame
     #dt_df_filtered
