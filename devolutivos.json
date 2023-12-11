@@ -1,5 +1,60 @@
 [
     {
+        "dt": "10010936",
+        "observacoes": "",
+        "hora": "13:59:39",
+        "placa": "KXP8A46",
+        "quantidade": "1",
+        "codigo": "904502",
+        "data": "09/12/2023",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10010936",
+        "observacoes": "",
+        "hora": "13:59:36",
+        "placa": "KXP8A46",
+        "quantidade": "1",
+        "codigo": "904502",
+        "data": "09/12/2023",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10007531",
+        "observacoes": "",
+        "hora": "02:38:17",
+        "placa": "FRF6J63",
+        "quantidade": "1",
+        "codigo": "903489",
+        "data": "09/12/2023",
+        "nome": "DRAFT BEER HEINEKEN PIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10007531",
+        "observacoes": "",
+        "hora": "02:38:18",
+        "placa": "FRF6J63",
+        "quantidade": "5",
+        "codigo": "903489",
+        "data": "09/12/2023",
+        "nome": "DRAFT BEER HEINEKEN PIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10007531",
+        "observacoes": "",
+        "hora": "02:38:17",
+        "placa": "FRF6J63",
+        "quantidade": "10",
+        "codigo": "903482",
+        "data": "09/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
         "dt": "10007743",
         "observacoes": "",
         "hora": "21:03:41",
