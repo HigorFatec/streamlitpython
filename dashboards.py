@@ -82,9 +82,16 @@ if senha == senha_correta:
     df = df.sort_values('data')
     df = df.drop_duplicates()
 
+    # Adicionando uma nova coluna 'mes_ano'
+    df['mes_ano'] = df['data'].dt.to_period('M').dt.strftime('%h-%Y')
+
+
     #2.1 - DATA (RESULTADO)
     df_resultado['DATA'] = pd.to_datetime(df_resultado['DATA'], dayfirst=True)
     df_resultado = df_resultado.sort_values('DATA')
+
+    # Adicionando uma nova coluna 'mes_ano'
+    df_resultado['mes_ano'] = df_resultado['DATA'].dt.to_period('M')
 
     #2.1.1 - DATA (DEVOLUTIVO)
     df_devolutivo['data'] = pd.to_datetime(df_devolutivo['data'],dayfirst=True)
@@ -94,6 +101,9 @@ if senha == senha_correta:
     df_devolutivo['quantidade'] = df_devolutivo['quantidade'].str.replace(r'\D', '', regex=True)
 
     df_devolutivo['quantidade'] = df_devolutivo['quantidade'].astype(int)
+
+    df_devolutivo['mes_ano'] = df_devolutivo['data'].dt.to_period('M')
+
 
     #2.2 - MODIFICANDO PARA STRING (RESULTADO)
     df_resultado['TRANSPORTE'] = df_resultado['TRANSPORTE'].astype(str)
@@ -179,6 +189,18 @@ if senha == senha_correta:
     date_list_resultado = ['TOTAL'] + list(df_resultado['DATA'].unique())
     date_list_devolutivo = ['TOTAL'] + list(df_devolutivo['data'].unique())
     filial_list = ['LOCALIDADE'] + list(df['filial'].unique())
+    date_month_list = ['TOTAL'] + list(df['mes_ano'].unique())
+
+    # 3.3 Filtrar por mes-ano
+    selected_mes_ano = st.sidebar.selectbox('Filtro Mes-Ano', date_month_list)
+    if selected_mes_ano != 'TOTAL':
+        df_filtered_mes = df[df['mes_ano'] == selected_mes_ano].reset_index(drop=True)
+        df_filtered_mes_resultado = df_resultado[df_resultado['mes_ano'] == selected_mes_ano].reset_index(drop=True)
+        df_filtered_mes_devolutivo = df_devolutivo[df_devolutivo['mes_ano'] == selected_mes_ano].reset_index(drop=True)
+    else:
+        df_filtered_mes = df
+        df_filtered_mes_resultado = df_resultado
+        df_filtered_mes_devolutivo = df_devolutivo
 
     # 3 - Filtro de Busca DT e DATA
     selected_date = st.sidebar.selectbox('Filtro Data', date_list)
@@ -187,9 +209,9 @@ if senha == senha_correta:
         df_filtered_date_resultado = df_resultado[df_resultado['DATA'] == selected_date].reset_index(drop=True)
         df_filtered_date_devolutivo = df_devolutivo[df_devolutivo['data'] == selected_date].reset_index(drop=True)
     else:
-        df_filtered_date = df
-        df_filtered_date_resultado = df_resultado
-        df_filtered_date_devolutivo = df_devolutivo
+        df_filtered_date = df_filtered_mes
+        df_filtered_date_resultado = df_filtered_mes_resultado
+        df_filtered_date_devolutivo = df_filtered_mes_devolutivo
 
     # 3.1 Filtrar opções de DT com base na seleção de Data
     dt_list = ['TOTAL'] + list(df_filtered_date['dt'].unique())
