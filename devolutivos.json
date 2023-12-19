@@ -1,5 +1,60 @@
 [
     {
+        "dt": "10043294",
+        "observacoes": "",
+        "hora": "17:30:07",
+        "placa": "CYT-7681",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "19/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10043350",
+        "observacoes": "",
+        "hora": "16:02:59",
+        "placa": "GLM-6167",
+        "quantidade": "2",
+        "codigo": "903482",
+        "data": "19/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10043355",
+        "observacoes": "",
+        "hora": "17:00:38",
+        "placa": "PDQ1G57",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "19/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10043274",
+        "observacoes": "",
+        "hora": "17:08:40",
+        "placa": "OSL2J67",
+        "quantidade": "1 unidade",
+        "codigo": "903482",
+        "data": "19/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10043355",
+        "observacoes": "",
+        "hora": "17:00:38",
+        "placa": "PDQ1G57",
+        "quantidade": "1",
+        "codigo": "904502",
+        "data": "19/12/2023",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
         "dt": "10039073",
         "observacoes": "",
         "hora": "21:19:40",
