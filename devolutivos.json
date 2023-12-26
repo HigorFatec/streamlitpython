@@ -1,5 +1,82 @@
 [
     {
+        "dt": "10051093",
+        "observacoes": "",
+        "hora": "18:34:10",
+        "placa": "BBA-5120",
+        "quantidade": "5",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051362",
+        "observacoes": "",
+        "hora": "19:13:44",
+        "placa": "PDQ1H57",
+        "quantidade": "10",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051519",
+        "observacoes": "",
+        "hora": "20:19:07",
+        "placa": "CIT1F97",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051094",
+        "observacoes": "",
+        "hora": "20:58:07",
+        "placa": "BWK-5718",
+        "quantidade": "2",
+        "codigo": "904213",
+        "data": "21/12/2023",
+        "nome": "CERV AMSTEL LAGER 1LGFA RT 12UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051093",
+        "observacoes": "",
+        "hora": "18:34:09",
+        "placa": "BBA-5120",
+        "quantidade": "8 unidades ",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051362",
+        "observacoes": "",
+        "hora": "19:13:40",
+        "placa": "PDQ1H57",
+        "quantidade": "10",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10051264",
+        "observacoes": "",
+        "hora": "18:50:34",
+        "placa": "PDS1D97",
+        "quantidade": "3",
+        "codigo": "903482",
+        "data": "21/12/2023",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
         "dt": "10033009",
         "observacoes": "",
         "hora": "19:42:41",
