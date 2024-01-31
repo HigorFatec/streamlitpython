@@ -1,5 +1,93 @@
 [
     {
+        "dt": "10088343",
+        "observacoes": "",
+        "hora": "14:07:36",
+        "placa": "PQT6B27",
+        "quantidade": "1",
+        "codigo": "904502",
+        "data": "04/01/2024",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088258",
+        "observacoes": "",
+        "hora": "14:20:33",
+        "placa": "BAT-4230",
+        "quantidade": "2",
+        "codigo": "903482",
+        "data": "04/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088294",
+        "observacoes": "",
+        "hora": "13:52:21",
+        "placa": "PQT6B87",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "04/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088258",
+        "observacoes": "",
+        "hora": "14:29:21",
+        "placa": "BAT-4230",
+        "quantidade": "2",
+        "codigo": "903482",
+        "data": "04/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088343",
+        "observacoes": "",
+        "hora": "14:07:35",
+        "placa": "PQT6B27",
+        "quantidade": "3",
+        "codigo": "903482",
+        "data": "04/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088281",
+        "observacoes": "",
+        "hora": "13:12:08",
+        "placa": "DWN5D42",
+        "quantidade": "1",
+        "codigo": "903489",
+        "data": "04/01/2024",
+        "nome": "DRAFT BEER HEINEKEN PIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088281",
+        "observacoes": "",
+        "hora": "13:12:09",
+        "placa": "DWN5D42",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "04/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10088338",
+        "observacoes": "",
+        "hora": "20:28:18",
+        "placa": "PDQ1G57",
+        "quantidade": "1",
+        "codigo": "903489",
+        "data": "04/01/2024",
+        "nome": "DRAFT BEER HEINEKEN PIL 50L",
+        "filial": "RPU"
+    },
+    {
         "dt": "10078102",
         "observacoes": "",
         "hora": "15:38:43",
