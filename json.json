@@ -1,5 +1,1495 @@
 [
     {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:54",
+        "placa": "DTD5G25",
+        "quantidade": 49,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:54",
+        "placa": "DTD5G25",
+        "quantidade": 8,
+        "data": "11/01/2024",
+        "nome": "PALETE MAD PBR (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109831",
+        "observacoes": "",
+        "hora": "19:17:14",
+        "placa": "BBA-5180",
+        "quantidade": 12,
+        "data": "11/01/2024",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:26:32",
+        "placa": "PDQ1G57",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 13,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:31",
+        "placa": "PDQ1G37",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109917",
+        "observacoes": "",
+        "hora": "18:37:00",
+        "placa": "PDQ1H07",
+        "quantidade": 28,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109845",
+        "observacoes": "",
+        "hora": "16:20:28",
+        "placa": "CGZ8H15",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109873",
+        "observacoes": "",
+        "hora": "16:12:07",
+        "placa": "FGM6J29",
+        "quantidade": 18,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109564",
+        "observacoes": "",
+        "hora": "18:26:53",
+        "placa": "BAB-5150",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109839",
+        "observacoes": "",
+        "hora": "16:43:04",
+        "placa": "FRF6J63",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:55",
+        "placa": "DTD5G25",
+        "quantidade": 5,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109836",
+        "observacoes": "",
+        "hora": "18:23:46",
+        "placa": "DTC8H20",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:26:32",
+        "placa": "PDQ1G57",
+        "quantidade": 7,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109914",
+        "observacoes": "",
+        "hora": "15:54:39",
+        "placa": "OSL7G47",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109835",
+        "observacoes": "",
+        "hora": "18:39:06",
+        "placa": "DPB-6175",
+        "quantidade": 36,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109877",
+        "observacoes": "",
+        "hora": "20:24:02",
+        "placa": "BKM-8091",
+        "quantidade": 19,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109834",
+        "observacoes": "",
+        "hora": "15:25:46",
+        "placa": "BWP-6776",
+        "quantidade": 17,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:47",
+        "placa": "LSO4G05",
+        "quantidade": 40,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:47",
+        "placa": "LSO4G05",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109870",
+        "observacoes": "",
+        "hora": "17:32:04",
+        "placa": "DWN5D42",
+        "quantidade": 7,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109829",
+        "observacoes": "",
+        "hora": "17:03:50",
+        "placa": "BBA-5120",
+        "quantidade": 10,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109874",
+        "observacoes": "",
+        "hora": "20:00:48",
+        "placa": "FHH3D82",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109873",
+        "observacoes": "",
+        "hora": "16:12:07",
+        "placa": "FGM6J29",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:54",
+        "placa": "DTD5G25",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "PALETE MAD PBR 2 (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109566",
+        "observacoes": "",
+        "hora": "19:45:18",
+        "placa": "BAT-3790",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "",
+        "hora": "16:59:05",
+        "placa": "CYT-7681",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109875",
+        "observacoes": "",
+        "hora": "16:23:51",
+        "placa": "FJM0D22",
+        "quantidade": 76,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109834",
+        "observacoes": "",
+        "hora": "15:25:46",
+        "placa": "BWP-6776",
+        "quantidade": 14,
+        "data": "11/01/2024",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109872",
+        "observacoes": "",
+        "hora": "16:18:39",
+        "placa": "EZZ3F75",
+        "quantidade": 13,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109841",
+        "observacoes": "",
+        "hora": "16:09:46",
+        "placa": "PDQ1H57",
+        "quantidade": 10,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109564",
+        "observacoes": "",
+        "hora": "18:26:52",
+        "placa": "BAB-5150",
+        "quantidade": 102,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "PDQ1G57",
+        "quantidade": 19,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109836",
+        "observacoes": "",
+        "hora": "18:23:46",
+        "placa": "DTC8H20",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:26:32",
+        "placa": "PDQ1G57",
+        "quantidade": 63,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109916",
+        "observacoes": "",
+        "hora": "18:34:14",
+        "placa": "PDQ1G77",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109877",
+        "observacoes": "",
+        "hora": "20:24:01",
+        "placa": "BKM-8091",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109834",
+        "observacoes": "",
+        "hora": "15:25:46",
+        "placa": "BWP-6776",
+        "quantidade": 16,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109843",
+        "observacoes": "",
+        "hora": "18:10:31",
+        "placa": "BHQ-7625",
+        "quantidade": 41,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:26:32",
+        "placa": "PDQ1G57",
+        "quantidade": 20,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109914",
+        "observacoes": "",
+        "hora": "15:54:39",
+        "placa": "OSL7G47",
+        "quantidade": 17,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 39,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109835",
+        "observacoes": "",
+        "hora": "18:39:06",
+        "placa": "DPB-6175",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109874",
+        "observacoes": "",
+        "hora": "20:00:49",
+        "placa": "FHH3D82",
+        "quantidade": 20,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109874",
+        "observacoes": "",
+        "hora": "20:00:49",
+        "placa": "FHH3D82",
+        "quantidade": 20,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109870",
+        "observacoes": "",
+        "hora": "17:32:04",
+        "placa": "DWN5D42",
+        "quantidade": 35,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:23:16",
+        "placa": "PDQ1G57",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109939",
+        "observacoes": "",
+        "hora": "14:38:49",
+        "placa": "PQT6B87",
+        "quantidade": 40,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109843",
+        "observacoes": "",
+        "hora": "18:10:31",
+        "placa": "BHQ-7625",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109908",
+        "observacoes": "",
+        "hora": "16:21:46",
+        "placa": "BWK-5718",
+        "quantidade": 23,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109916",
+        "observacoes": "",
+        "hora": "18:34:14",
+        "placa": "PDQ1G77",
+        "quantidade": 34,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:32",
+        "placa": "PDQ1G37",
+        "quantidade": 31,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:32",
+        "placa": "PDQ1G37",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:47",
+        "placa": "LSO4G05",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109831",
+        "observacoes": "",
+        "hora": "19:17:13",
+        "placa": "BBA-5180",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "1CAIXA ERRADA",
+        "hora": "16:59:06",
+        "placa": "CYT-7681",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109914",
+        "observacoes": "",
+        "hora": "15:54:39",
+        "placa": "OSL7G47",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109940",
+        "observacoes": "",
+        "hora": "16:31:27",
+        "placa": "QFD9G48",
+        "quantidade": 51,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109911",
+        "observacoes": "",
+        "hora": "17:14:52",
+        "placa": "GLM-6167",
+        "quantidade": 17,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109874",
+        "observacoes": "",
+        "hora": "20:00:49",
+        "placa": "FHH3D82",
+        "quantidade": 128,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109911",
+        "observacoes": "",
+        "hora": "17:14:52",
+        "placa": "GLM-6167",
+        "quantidade": 81,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109871",
+        "observacoes": "",
+        "hora": "17:54:55",
+        "placa": "EZA0A59",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109845",
+        "observacoes": "",
+        "hora": "16:20:28",
+        "placa": "CGZ8H15",
+        "quantidade": 12,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109870",
+        "observacoes": "",
+        "hora": "17:32:03",
+        "placa": "DWN5D42",
+        "quantidade": 18,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109917",
+        "observacoes": "",
+        "hora": "18:37:00",
+        "placa": "PDQ1H07",
+        "quantidade": 10,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109939",
+        "observacoes": "",
+        "hora": "14:38:48",
+        "placa": "PQT6B87",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109843",
+        "observacoes": "",
+        "hora": "18:10:32",
+        "placa": "BHQ-7625",
+        "quantidade": 14,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "",
+        "hora": "16:59:05",
+        "placa": "CYT-7681",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109877",
+        "observacoes": "",
+        "hora": "20:24:01",
+        "placa": "BKM-8091",
+        "quantidade": 17,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109845",
+        "observacoes": "",
+        "hora": "16:20:28",
+        "placa": "CGZ8H15",
+        "quantidade": 39,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109834",
+        "observacoes": "",
+        "hora": "15:25:47",
+        "placa": "BWP-6776",
+        "quantidade": 70,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:31",
+        "placa": "PDQ1G37",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109840",
+        "observacoes": "",
+        "hora": "14:55:44",
+        "placa": "PDQ1F27",
+        "quantidade": 33,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109831",
+        "observacoes": "",
+        "hora": "19:17:14",
+        "placa": "BBA-5180",
+        "quantidade": 24,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109841",
+        "observacoes": "",
+        "hora": "16:09:46",
+        "placa": "PDQ1H57",
+        "quantidade": 30,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:47",
+        "placa": "LSO4G05",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109567",
+        "observacoes": "",
+        "hora": "15:21:09",
+        "placa": "BAT-4230",
+        "quantidade": 63,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:55",
+        "placa": "DTD5G25",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:31",
+        "placa": "PDQ1G37",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109875",
+        "observacoes": "",
+        "hora": "16:23:51",
+        "placa": "FJM0D22",
+        "quantidade": 13,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109839",
+        "observacoes": "",
+        "hora": "16:43:05",
+        "placa": "FRF6J63",
+        "quantidade": 14,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:47",
+        "placa": "LSO4G05",
+        "quantidade": 17,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109939",
+        "observacoes": "",
+        "hora": "14:38:50",
+        "placa": "PQT6B87",
+        "quantidade": 37,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109869",
+        "observacoes": "",
+        "hora": "19:49:56",
+        "placa": "DTD5G79",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109835",
+        "observacoes": "",
+        "hora": "18:39:06",
+        "placa": "DPB-6175",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109842",
+        "observacoes": "",
+        "hora": "18:13:10",
+        "placa": "PQT6B27",
+        "quantidade": 30,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109875",
+        "observacoes": "",
+        "hora": "16:23:51",
+        "placa": "FJM0D22",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109843",
+        "observacoes": "",
+        "hora": "18:10:31",
+        "placa": "BHQ-7625",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109840",
+        "observacoes": "",
+        "hora": "14:55:44",
+        "placa": "PDQ1F27",
+        "quantidade": 8,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "PDQ1G57",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "BARRIL 50L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109838",
+        "observacoes": "",
+        "hora": "16:45:13",
+        "placa": "EPE9J37",
+        "quantidade": 7,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109915",
+        "observacoes": "",
+        "hora": "17:23:15",
+        "placa": "PDQ1G57",
+        "quantidade": 28,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109872",
+        "observacoes": "",
+        "hora": "16:18:39",
+        "placa": "EZZ3F75",
+        "quantidade": 61,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109940",
+        "observacoes": "",
+        "hora": "16:31:27",
+        "placa": "QFD9G48",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109940",
+        "observacoes": "",
+        "hora": "16:31:27",
+        "placa": "QFD9G48",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109566",
+        "observacoes": "",
+        "hora": "19:45:19",
+        "placa": "BAT-3790",
+        "quantidade": 71,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109908",
+        "observacoes": "",
+        "hora": "16:21:46",
+        "placa": "BWK-5718",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109877",
+        "observacoes": "",
+        "hora": "20:24:02",
+        "placa": "BKM-8091",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "PALETE MAD PBR (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109874",
+        "observacoes": "",
+        "hora": "20:00:50",
+        "placa": "FHH3D82",
+        "quantidade": 6,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109838",
+        "observacoes": "",
+        "hora": "16:45:13",
+        "placa": "EPE9J37",
+        "quantidade": 30,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109871",
+        "observacoes": "",
+        "hora": "17:54:55",
+        "placa": "EZA0A59",
+        "quantidade": 37,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "",
+        "hora": "16:59:06",
+        "placa": "CYT-7681",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "",
+        "hora": "16:59:06",
+        "placa": "CYT-7681",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109829",
+        "observacoes": "",
+        "hora": "17:03:50",
+        "placa": "BBA-5120",
+        "quantidade": 8,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109876",
+        "observacoes": "",
+        "hora": "17:38:31",
+        "placa": "PDQ1G37",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109914",
+        "observacoes": "",
+        "hora": "15:54:39",
+        "placa": "OSL7G47",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109847",
+        "observacoes": "",
+        "hora": "16:59:06",
+        "placa": "CYT-7681",
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 4,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109844",
+        "observacoes": "",
+        "hora": "21:19:57",
+        "placa": "BMF0E12",
+        "quantidade": 10,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:01",
+        "placa": "CPG1I08",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:16",
+        "placa": NaN,
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "BARRIL 30L",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:17",
+        "placa": NaN,
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:03",
+        "placa": "CPG1I08",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109844",
+        "observacoes": "",
+        "hora": "21:19:58",
+        "placa": "BMF0E12",
+        "quantidade": 56,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:02",
+        "placa": "CPG1I08",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:03",
+        "placa": "CPG1I08",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109844",
+        "observacoes": "",
+        "hora": "21:19:58",
+        "placa": "BMF0E12",
+        "quantidade": 8,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:02",
+        "placa": "CPG1I08",
+        "quantidade": 44,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 35,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109909",
+        "observacoes": "",
+        "hora": "13:13:13",
+        "placa": "BWP-7869",
+        "quantidade": 84,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:13",
+        "placa": "CPG1I08",
+        "quantidade": 12,
+        "data": "11/01/2024",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109844",
+        "observacoes": "",
+        "hora": "21:19:58",
+        "placa": "BMF0E12",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:01",
+        "placa": "CPG1I08",
+        "quantidade": 12,
+        "data": "11/01/2024",
+        "nome": "GARRAFA HEINEKEN 0,60L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 40,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:16",
+        "placa": NaN,
+        "quantidade": 8,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 2,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109910",
+        "observacoes": "",
+        "hora": "13:05:09",
+        "placa": "FWV8H15",
+        "quantidade": 10,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:17",
+        "placa": NaN,
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:17",
+        "placa": NaN,
+        "quantidade": 28,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 33,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 33,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:16",
+        "placa": NaN,
+        "quantidade": 21,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:17",
+        "placa": NaN,
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109909",
+        "observacoes": "",
+        "hora": "13:13:14",
+        "placa": "BWP-7869",
+        "quantidade": 336,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109910",
+        "observacoes": "",
+        "hora": "13:05:08",
+        "placa": "FWV8H15",
+        "quantidade": 16,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:01",
+        "placa": "CPG1I08",
+        "quantidade": 3,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:11",
+        "placa": "KXP8A50",
+        "quantidade": 40,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLASTICA 1L (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109910",
+        "observacoes": "",
+        "hora": "13:05:09",
+        "placa": "FWV8H15",
+        "quantidade": 11,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109912",
+        "observacoes": "",
+        "hora": "14:27:12",
+        "placa": "KXP8A50",
+        "quantidade": 42,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST HEINEKEN 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:03",
+        "placa": "CPG1I08",
+        "quantidade": 1,
+        "data": "11/01/2024",
+        "nome": "CAIXA PLAST AMARELA 0,60L 24UN (IM)",
+        "filial": "RPU"
+    },
+    {
         "dt": "10105365",
         "observacoes": "",
         "hora": "19:12:57",
