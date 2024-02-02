@@ -1,5 +1,82 @@
 [
     {
+        "dt": "10109871",
+        "observacoes": "",
+        "hora": "17:54:54",
+        "placa": "EZA0A59",
+        "quantidade": "3",
+        "codigo": "904502",
+        "data": "11/01/2024",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10105276",
+        "observacoes": "",
+        "hora": "17:45:46",
+        "placa": "LSO4G05",
+        "quantidade": "3",
+        "codigo": "904502",
+        "data": "11/01/2024",
+        "nome": "CERV AMSTEL LAGER 0,60L RT 24UN",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109868",
+        "observacoes": "",
+        "hora": "20:55:53",
+        "placa": "DTD5G25",
+        "quantidade": "3",
+        "codigo": "903482",
+        "data": "11/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "18:59:59",
+        "placa": "CPG1I08",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "11/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109846",
+        "observacoes": "",
+        "hora": "19:00:01",
+        "placa": "CPG1I08",
+        "quantidade": "1",
+        "codigo": "903482",
+        "data": "11/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:17",
+        "placa": NaN,
+        "quantidade": "3",
+        "codigo": "903482",
+        "data": "11/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
+        "dt": "10109938",
+        "observacoes": "",
+        "hora": "22:11:16",
+        "placa": NaN,
+        "quantidade": "3",
+        "codigo": "903482",
+        "data": "11/01/2024",
+        "nome": "CERV HEINEKEN PIL 0,60GRF RT 24UN.",
+        "filial": "RPU"
+    },
+    {
         "dt": "10105275",
         "observacoes": "",
         "hora": "15:51:57",
